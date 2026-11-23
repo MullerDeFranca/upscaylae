@@ -19,6 +19,7 @@ import { FEATURE_FLAGS } from "../common/feature-flags";
 import settings from "electron-settings";
 import pasteImage from "./commands/paste-image";
 import path from "path";
+import { iniciarMuller, encerrarMuller } from "./muller";
 
 // INITIALIZATION
 log.initialize({ preload: true });
@@ -46,6 +47,9 @@ app.on("ready", async () => {
 
   createMainWindow();
 
+  // Melhorias Muller: modo Logo/DTF, pasta vigiada e API local
+  iniciarMuller().catch((e) => log.error("Falha ao iniciar melhorias Muller:", e));
+
   log.info(
     "🆙 Upscayl version:",
     app.getVersion(),
@@ -70,7 +74,7 @@ app.on("ready", async () => {
 
 // Quit the app once all windows are closed
 app.on("window-all-closed", () => {
-  app.quit();
+  encerrarMuller().finally(() => app.quit());
 });
 
 // ! ENABLE THIS FOR MACOS APP STORE BUILD

@@ -31,6 +31,7 @@ import {
 import { useToast } from "@/components/ui/use-toast";
 import UpscaylSteps from "./upscayl-tab/upscayl-steps";
 import SettingsTab from "./settings-tab";
+import MullerTab from "./muller-tab";
 import Footer from "../footer";
 import Tabs from "../tabs";
 import Header from "../header";
@@ -74,7 +75,7 @@ const Sidebar = ({
   const [gpuId, setGpuId] = useAtom(gpuIdAtom);
   const [saveImageAs, setSaveImageAs] = useAtom(saveImageAsAtom);
 
-  const [selectedTab, setSelectedTab] = useState(0);
+  const [selectedTab, setSelectedTab] = useState(2);
   const [showCloudModal, setShowCloudModal] = useState(false);
 
   // ATOMIC STATES
@@ -233,6 +234,14 @@ const Sidebar = ({
             dimensions={dimensions}
             setGpuId={setGpuId}
             setSaveImageAs={setSaveImageAs}
+          />
+        )}
+
+        {selectedTab === 2 && (
+          <MullerTab
+            imagePath={imagePath}
+            selectImageHandler={selectImageHandler}
+            setUpscaledImagePath={setUpscaledImagePath}
           />
         )}
 

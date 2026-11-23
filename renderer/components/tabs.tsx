@@ -13,6 +13,14 @@ const Tabs = ({ selectedTab, setSelectedTab }: TabsProps) => {
   return (
     <div className="tabs-boxed tabs mx-auto mb-2">
       <a
+        className={`tab ${selectedTab === 2 && "tab-active"}`}
+        onClick={() => {
+          setSelectedTab(2);
+        }}
+      >
+        Logo/DTF
+      </a>
+      <a
         className={`tab ${selectedTab === 0 && "tab-active"}`}
         onClick={() => {
           setSelectedTab(0);
