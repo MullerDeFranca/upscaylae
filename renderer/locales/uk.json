@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "Налаштування",
-    "CHANGE_LANGUAGE": { "TITLE": "Змінити мову" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "Змінити мову"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "Стиснення зображень",
       "DESCRIPTION": "Стиснення PNG є безвтратним, тому воно може не значно зменшити розмір файлу, а вищі значення стиснення можуть вплинути на продуктивність. Стиснення JPG та WebP є втратним."
@@ -129,6 +131,22 @@
       "AFTER": "Після",
       "ZOOM": "Масштаб",
       "MODELS": {
+        "arte-chapada-4x": {
+          "NAME": "Flat Art 4x (logos)",
+          "DESCRIPTION": "For logos and flat-color art: clean edges, no invented texture."
+        },
+        "arte-chapada-2x": {
+          "NAME": "Flat Art 2x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 2x."
+        },
+        "arte-chapada-3x": {
+          "NAME": "Flat Art 3x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 3x."
+        },
+        "limpa-jpeg-4x": {
+          "NAME": "JPEG Cleanup 4x",
+          "DESCRIPTION": "For noisy, compressed JPEG/WhatsApp images. Denoises while upscaling."
+        },
         "upscayl-standard-4x": {
           "NAME": "Upscayl Стандартний",
           "DESCRIPTION": "Підходить для більшості зображень."
@@ -277,7 +295,7 @@
       "TITLE": "Попередження про метадані",
       "DESCRIPTION": "На деяких системах метадані можуть не відображатися в форматах, відмінних від JPG. За потреби використовуйте спеціальні інструменти для перегляду метаданих."
     }
-  },    
+  },
   "UPSCAYL_CLOUD": {
     "COMING_SOON": "Скоро!",
     "CATCHY_PHRASE_1": "Більше жодних помилок, проблем з обладнанням, компромісів з якістю чи довгого очікування!",

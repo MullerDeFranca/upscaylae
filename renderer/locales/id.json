@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "Pengaturan",
-    "CHANGE_LANGUAGE": { "TITLE": "Ubah Bahasa" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "Ubah Bahasa"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "Kompresi Gambar",
       "DESCRIPTION": "Kompresi PNG bersifat lossless, sehingga mungkin tidak mengurangi ukuran file secara signifikan dan nilai kompresi yang lebih tinggi dapat mempengaruhi kinerja. Kompresi JPG dan WebP bersifat lossy."
@@ -129,6 +131,22 @@
       "AFTER": "Sesudah",
       "ZOOM": "Perbesar",
       "MODELS": {
+        "arte-chapada-4x": {
+          "NAME": "Flat Art 4x (logos)",
+          "DESCRIPTION": "For logos and flat-color art: clean edges, no invented texture."
+        },
+        "arte-chapada-2x": {
+          "NAME": "Flat Art 2x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 2x."
+        },
+        "arte-chapada-3x": {
+          "NAME": "Flat Art 3x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 3x."
+        },
+        "limpa-jpeg-4x": {
+          "NAME": "JPEG Cleanup 4x",
+          "DESCRIPTION": "For noisy, compressed JPEG/WhatsApp images. Denoises while upscaling."
+        },
         "upscayl-standard-4x": {
           "NAME": "Upscayl Standard",
           "DESCRIPTION": "Cocok untuk sebagian besar gambar."

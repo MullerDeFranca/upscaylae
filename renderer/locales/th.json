@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "การตั้งค่า",
-    "CHANGE_LANGUAGE": { "TITLE": "เปลี่ยนภาษา" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "เปลี่ยนภาษา"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "การบีบอัดรูป",
       "DESCRIPTION": "การบีบอัด PNG จะไม่มีการสูญเสียข้อมูล ซึ่งอาจไม่ช่วยลดขนาดของไฟล์ได้มากนัก และการบีบอัดด้วยค่าที่สูงอาจส่งผลต่อประสิทธิภาพ ส่วนการบีบอัดด้วย JPG และ WebP จะเกิดการสูญเสียข้อมูล"
@@ -129,6 +131,22 @@
       "AFTER": "หลัง",
       "ZOOM": "ขยาย",
       "MODELS": {
+        "arte-chapada-4x": {
+          "NAME": "Flat Art 4x (logos)",
+          "DESCRIPTION": "For logos and flat-color art: clean edges, no invented texture."
+        },
+        "arte-chapada-2x": {
+          "NAME": "Flat Art 2x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 2x."
+        },
+        "arte-chapada-3x": {
+          "NAME": "Flat Art 3x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 3x."
+        },
+        "limpa-jpeg-4x": {
+          "NAME": "JPEG Cleanup 4x",
+          "DESCRIPTION": "For noisy, compressed JPEG/WhatsApp images. Denoises while upscaling."
+        },
         "upscayl-standard-4x": {
           "NAME": "Upscayl แบบมาตรฐาน",
           "DESCRIPTION": "เหมาะกับรูปส่วนใหญ่"

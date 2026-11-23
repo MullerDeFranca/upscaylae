@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "Tetapan",
-    "CHANGE_LANGUAGE": { "TITLE": "Tukar Bahasa" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "Tukar Bahasa"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "Pemampatan Imej",
       "DESCRIPTION": "Pemampatan PNG tidak menghilangkan data, jadi ia mungkin tidak mengurangkan saiz fail dengan ketara dan nilai pemampatan yang lebih tinggi mungkin menjejaskan prestasi. Pemampatan JPG dan WebP menghilangkan sebahagian data."
@@ -129,6 +131,22 @@
       "AFTER": "Selepas",
       "ZOOM": "Zum",
       "MODELS": {
+        "arte-chapada-4x": {
+          "NAME": "Flat Art 4x (logos)",
+          "DESCRIPTION": "For logos and flat-color art: clean edges, no invented texture."
+        },
+        "arte-chapada-2x": {
+          "NAME": "Flat Art 2x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 2x."
+        },
+        "arte-chapada-3x": {
+          "NAME": "Flat Art 3x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 3x."
+        },
+        "limpa-jpeg-4x": {
+          "NAME": "JPEG Cleanup 4x",
+          "DESCRIPTION": "For noisy, compressed JPEG/WhatsApp images. Denoises while upscaling."
+        },
         "upscayl-standard-4x": {
           "NAME": "Upscayl Standard",
           "DESCRIPTION": "Sesuai untuk kebanyakan imej."

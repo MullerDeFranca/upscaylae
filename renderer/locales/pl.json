@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "Ustawienia",
-    "CHANGE_LANGUAGE": { "TITLE": "Zmień Język" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "Zmień Język"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "Kompresja obrazu",
       "DESCRIPTION": "Kompresja PNG jest bezstratna, więc rozmiar pliku może nie zostać znacząco zmniejszony, a wyższe wartości kompresji mogą mieć wpływ na wydajność. Kompresja JPG i WebP powoduje straty."
@@ -129,6 +131,22 @@
       "AFTER": "Po",
       "ZOOM": "Powiększ",
       "MODELS": {
+        "arte-chapada-4x": {
+          "NAME": "Flat Art 4x (logos)",
+          "DESCRIPTION": "For logos and flat-color art: clean edges, no invented texture."
+        },
+        "arte-chapada-2x": {
+          "NAME": "Flat Art 2x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 2x."
+        },
+        "arte-chapada-3x": {
+          "NAME": "Flat Art 3x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 3x."
+        },
+        "limpa-jpeg-4x": {
+          "NAME": "JPEG Cleanup 4x",
+          "DESCRIPTION": "For noisy, compressed JPEG/WhatsApp images. Denoises while upscaling."
+        },
         "upscayl-standard-4x": {
           "NAME": "Upscayl Standard",
           "DESCRIPTION": "Nadaje się do większości obrazów."

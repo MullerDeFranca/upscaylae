@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "Ayarlar",
-    "CHANGE_LANGUAGE": { "TITLE": "Dili Değiştirin" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "Dili Değiştirin"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "Görsel Sıkıştırma",
       "DESCRIPTION": "PNG sıkıştırması kayıpsızdır, bu nedenle dosya boyutunu önemli ölçüde küçültmeyebilir ve daha yüksek sıkıştırma değerleri performansı etkileyebilir. JPG ve WebP sıkıştırması ise kayıplıdır."
@@ -129,6 +131,22 @@
       "AFTER": "Sonrası",
       "ZOOM": "Yakınlaştır",
       "MODELS": {
+        "arte-chapada-4x": {
+          "NAME": "Flat Art 4x (logos)",
+          "DESCRIPTION": "For logos and flat-color art: clean edges, no invented texture."
+        },
+        "arte-chapada-2x": {
+          "NAME": "Flat Art 2x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 2x."
+        },
+        "arte-chapada-3x": {
+          "NAME": "Flat Art 3x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 3x."
+        },
+        "limpa-jpeg-4x": {
+          "NAME": "JPEG Cleanup 4x",
+          "DESCRIPTION": "For noisy, compressed JPEG/WhatsApp images. Denoises while upscaling."
+        },
         "upscayl-standard-4x": {
           "NAME": "Upscayl Standard",
           "DESCRIPTION": "Çoğu görsel için ideal."
@@ -277,7 +295,7 @@
       "TITLE": "Meta Veri Uyarısı",
       "DESCRIPTION": "Bazı sistemlerde, JPG dışındaki formatlarda meta veriler görüntülenemeyebilir. Gerekirse meta verileri görüntülemek için özel araçlar kullanın."
     }
-  },    
+  },
   "UPSCAYL_CLOUD": {
     "COMING_SOON": "Yakında sizlerle!",
     "CATCHY_PHRASE_1": "Artık hatalar, donanım uyuşmazlıkları, kalite tavizleri ya da uzun yükleme süreleri yok!",

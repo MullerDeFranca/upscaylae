@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "الاعدادات",
-    "CHANGE_LANGUAGE": { "TITLE": "تغيير اللغة" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "تغيير اللغة"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "اختزال الصورة",
       "DESCRIPTION": "صيغة png , ربما لن تؤثر على حجم الملف بشكل كبير و عملية الضغط القوية قد يؤثر على الاداء, JPG و WEBP صيغ تفقد جودتها"
@@ -129,6 +131,22 @@
       "AFTER": "بعد",
       "ZOOM": "تكبير",
       "MODELS": {
+        "arte-chapada-4x": {
+          "NAME": "Flat Art 4x (logos)",
+          "DESCRIPTION": "For logos and flat-color art: clean edges, no invented texture."
+        },
+        "arte-chapada-2x": {
+          "NAME": "Flat Art 2x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 2x."
+        },
+        "arte-chapada-3x": {
+          "NAME": "Flat Art 3x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 3x."
+        },
+        "limpa-jpeg-4x": {
+          "NAME": "JPEG Cleanup 4x",
+          "DESCRIPTION": "For noisy, compressed JPEG/WhatsApp images. Denoises while upscaling."
+        },
         "upscayl-standard-4x": {
           "NAME": "ابسكيل الاعتيادي",
           "DESCRIPTION": "يفضل لأغلب الصور"
@@ -311,5 +329,3 @@
     }
   }
 }
-
-

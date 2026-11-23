@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "Настройки",
-    "CHANGE_LANGUAGE": { "TITLE": "Сменить язык" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "Сменить язык"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "Сжатие изображения",
       "DESCRIPTION": "Сжатие PNG происходит без потерь, поэтому размер файла может уменьшиться незначительно, а более высокие значения сжатия могут повлиять на производительность. Сжатие JPG и WebP совершается с потерями."
@@ -22,7 +24,7 @@
       "TITLE": "ДОБАВИТЬ ПОЛЬЗОВАТЕЛЬСКИЕ МОДЕЛИ",
       "BUTTON_FOLDER": "Выбрать папку",
       "DESCRIPTION": "Вы можете легко добавить свои модели. Подробности в:",
-	  "LINK_TITLE": "Хранилище пользовательских моделей"
+      "LINK_TITLE": "Хранилище пользовательских моделей"
     },
     "CUSTOM_INPUT_RESOLUTION": {
       "TITLE": "ПОЛЬЗОВАТЕЛЬСКАЯ ШИРИНА ВЫХОДА",
@@ -129,6 +131,22 @@
       "AFTER": "После",
       "ZOOM": "Увеличение",
       "MODELS": {
+        "arte-chapada-4x": {
+          "NAME": "Flat Art 4x (logos)",
+          "DESCRIPTION": "For logos and flat-color art: clean edges, no invented texture."
+        },
+        "arte-chapada-2x": {
+          "NAME": "Flat Art 2x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 2x."
+        },
+        "arte-chapada-3x": {
+          "NAME": "Flat Art 3x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 3x."
+        },
+        "limpa-jpeg-4x": {
+          "NAME": "JPEG Cleanup 4x",
+          "DESCRIPTION": "For noisy, compressed JPEG/WhatsApp images. Denoises while upscaling."
+        },
         "upscayl-standard-4x": {
           "NAME": "Upscayl обычный",
           "DESCRIPTION": "Подходит для большинства изображений."
@@ -277,7 +295,7 @@
       "TITLE": "Предупреждение о метаданных",
       "DESCRIPTION": "В некоторых системах метаданные могут не отображаться в форматах, отличных от JPG. При необходимости используйте специальные инструменты для просмотра метаданных."
     }
-  },   
+  },
   "UPSCAYL_CLOUD": {
     "COMING_SOON": "Скоро будет доступно!",
     "CATCHY_PHRASE_1": "Больше никаких ошибок, проблем с оборудованием, компромиссов в качестве или долгих загрузок!",

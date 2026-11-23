@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "設定",
-    "CHANGE_LANGUAGE": { "TITLE": "言語を変更する" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "言語を変更する"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "画像圧縮",
       "DESCRIPTION": "PNG圧縮は非可逆的であるため、ファイルサイズが大幅に削減されることはなく、高い圧縮値はパフォーマンスに影響を与える可能性があります。JPGおよびWebP圧縮は可逆的です。"
@@ -129,6 +131,22 @@
       "AFTER": "後",
       "ZOOM": "ズーム",
       "MODELS": {
+        "arte-chapada-4x": {
+          "NAME": "Flat Art 4x (logos)",
+          "DESCRIPTION": "For logos and flat-color art: clean edges, no invented texture."
+        },
+        "arte-chapada-2x": {
+          "NAME": "Flat Art 2x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 2x."
+        },
+        "arte-chapada-3x": {
+          "NAME": "Flat Art 3x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 3x."
+        },
+        "limpa-jpeg-4x": {
+          "NAME": "JPEG Cleanup 4x",
+          "DESCRIPTION": "For noisy, compressed JPEG/WhatsApp images. Denoises while upscaling."
+        },
         "upscayl-standard-4x": {
           "NAME": "Upscaylスタンダード",
           "DESCRIPTION": "ほとんどの画像に適しています。"
@@ -277,7 +295,7 @@
       "TITLE": "メタデータの警告",
       "DESCRIPTION": "一部のシステムでは、JPG以外の形式ではメタデータが表示されない場合があります。必要に応じて専用のツールを使用してメタデータを表示してください。"
     }
-  },   
+  },
   "UPSCAYL_CLOUD": {
     "COMING_SOON": "近日公開！",
     "CATCHY_PHRASE_1": "もうエラー、ハードウェアの問題、品質の妥協や長い読み込み時間はありません！",

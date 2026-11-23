@@ -1,4 +1,16 @@
 export const MODELS = {
+  "arte-chapada-4x": {
+    id: "arte-chapada-4x",
+  },
+  "arte-chapada-2x": {
+    id: "arte-chapada-2x",
+  },
+  "arte-chapada-3x": {
+    id: "arte-chapada-3x",
+  },
+  "limpa-jpeg-4x": {
+    id: "limpa-jpeg-4x",
+  },
   "upscayl-standard-4x": {
     id: "upscayl-standard-4x",
   },

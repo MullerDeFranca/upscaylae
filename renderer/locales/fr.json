@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "Paramètres",
-    "CHANGE_LANGUAGE": { "TITLE": "Changer de langue" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "Changer de langue"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "Compression d'image",
       "DESCRIPTION": "La compression PNG est sans perte, donc elle pourrait ne pas réduire la taille du fichier de manière significative et des valeurs de compression plus élevées pourraient affecter les performances. La compression JPG et WebP est avec perte."
@@ -129,6 +131,22 @@
       "AFTER": "Après",
       "ZOOM": "Zoom",
       "MODELS": {
+        "arte-chapada-4x": {
+          "NAME": "Flat Art 4x (logos)",
+          "DESCRIPTION": "For logos and flat-color art: clean edges, no invented texture."
+        },
+        "arte-chapada-2x": {
+          "NAME": "Flat Art 2x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 2x."
+        },
+        "arte-chapada-3x": {
+          "NAME": "Flat Art 3x (logos)",
+          "DESCRIPTION": "Same as Flat Art 4x, upscales 3x."
+        },
+        "limpa-jpeg-4x": {
+          "NAME": "JPEG Cleanup 4x",
+          "DESCRIPTION": "For noisy, compressed JPEG/WhatsApp images. Denoises while upscaling."
+        },
         "upscayl-standard-4x": {
           "NAME": "Upscayl Standard",
           "DESCRIPTION": "Convient à la plupart des images."
@@ -277,7 +295,7 @@
       "TITLE": "Avertissement sur les métadonnées",
       "DESCRIPTION": "Sur certains systèmes, les métadonnées peuvent ne pas être visibles dans les formats autres que JPG. Utilisez des outils spécifiques pour visualiser les métadonnées si nécessaire."
     }
-  },  
+  },
   "UPSCAYL_CLOUD": {
     "COMING_SOON": "Bientôt disponible !",
     "CATCHY_PHRASE_1": "Plus d'erreurs, de problèmes matériels, de compromis sur la qualité ou de longs temps de chargement !",
