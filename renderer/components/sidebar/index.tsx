@@ -32,7 +32,6 @@ import { useToast } from "@/components/ui/use-toast";
 import UpscaylSteps from "./upscayl-tab/upscayl-steps";
 import SettingsTab from "./settings-tab";
 import Footer from "../footer";
-import { NewsModal } from "../news-modal";
 import Tabs from "../tabs";
 import Header from "../header";
 import { ChevronLeftIcon } from "lucide-react";
@@ -218,8 +217,6 @@ const Sidebar = ({
         )}
 
         <Header version={version} />
-
-        <NewsModal />
 
         <Tabs selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
 
