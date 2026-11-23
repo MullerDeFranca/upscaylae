@@ -1,3 +1,5 @@
+> **Fork Upscaylae (branch Melhorias-Muller)** — aba Logo/DTF, tamanho em cm/DPI, remoção de fundo, cores chapadas, vetor SVG, motor ONNX, pasta vigiada e API local. Veja o [GUIA-MULLER.md](GUIA-MULLER.md).
+
 <div align="center">
 
   # v2.15 is out! 🥳 [Download Now ⬇️](https://github.com/upscayl/upscayl/releases/latest)
